@@ -11,6 +11,7 @@ SELECT first_name,last_name,hire_date
 FROM employees
 WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31';
 
+--Reference: https://www.youtube.com/watch?v=TGt2xa7EzvI
 -- 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
 SELECT d.dept_no,d.dept_name,m.emp_no,e.last_name, e.first_name
 FROM departments AS d
@@ -26,7 +27,6 @@ INNER JOIN dept_emp AS de ON
 d.dept_no=de.dept_no
 INNER JOIN employees AS e ON
 e.emp_no=de.emp_no;
-
 
 -- 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
 SELECT first_name,last_name,sex
