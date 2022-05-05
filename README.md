@@ -8,3 +8,6 @@ I've been hired as a new data engineer at Pewlett Hackard. My first major task i
 #### Data Modeling
 ![ERD.png](ERD.png)
 
+#### Results
+* See the Images folder for a snippit of query results.
+
