@@ -1,35 +1,54 @@
-# Employee Database: A Mystery in Two Parts
+# **Pwelett Hackard Analysis**
+<br></br>
 
 ![sql.png](sql.png)
+<br></br>
 
-## Overview of Project
+## **Overview of Project**
 I've been hired as a new data engineer at Pewlett Hackard. My first major task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files. My action items are to design the tables to hold data in the CSVs, import the CSVs into a SQL database, and answer questions about the data. 
+<br></br>
 
-### Results
-#### Data Modeling
+## **Data Modeling**
+* The purpose of this diagram is to create a visual representation of the six CSV files based common attributes. 
 ![ERD.png](ERD.png)
 
-#### Data Analysis
-1. Employee Details: 
+## **Results**
+
+### Employee Details: 
+* There are currently 300,024 employees at Pewlett Hackard.
 ![Employee Details](Images/EmployeeDetails.png)
 
-2. Employees Hired in 1986:
+### Employees Hired in 1986:
+* 36,150 employees were hired in 1986.
 ![Employee Hired in 1986](Images/Employees1986.png)
 
-3. Managers By Department
+### Managers By Department
+* See image below for breakdown of managers by department
 ![Managers By Department](Images/MgrDept.png)
 
-4. Employees By Department:
-![Employee By Department](Images/EmployeeDept.png)
+### Employees By Department:
+* See image below for breakdown of employees by department
+![Employee By Department](Images/EmployeesDept.png)
 
-5. Employees Whose First Name Is “Hercules” and Last Names Begin With “B.”
+### Employees Whose First Name Is “Hercules” and Last Names Begin With “B.”
+* There are 20 employees whose first name is Hercules and last name begins with a B.
 ![Employee Hercules](Images/Hercules.png)
 
-6. All Sales Department Employees:
+### All Sales Department Employees:
+There are 52,245 employees in the Sales department.
 ![Sales Department Employees](Images/Sales.png)
 
-7. All Sales and Development Departments Employees
+### All Sales and Development Departments Employees
+There are a total of 137,952 employees in the Sales and Development department.
 ![Sales and Development Department Employees](Images/SalesAndDev.png)
 
-8. Fequency Count of Employee Last Names in Descending Order:
+### Frequency Count of Employee Last Names in Descending Order:
+* Please run query on PostGres for a full list of employee last name counts.
 ![Frequency](Images/Frequency.png)
+
+## Summary
+ * As mentioned above, there are 300,024 employees at Pewlett Hackard
+ * Approximately 12% of the workforce was hired in 1986
+ * There are nine departments at this company including: Marketing, Finance, Human Resources, Production, Development, Quality Management, Sales, Research, and Customer Service
+ * Approximately 46% of the employees reside in the Sales and Development department
+ 
