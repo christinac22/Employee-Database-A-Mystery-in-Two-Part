@@ -10,6 +10,7 @@ I've been hired as a new data engineer at Pewlett Hackard. My first major task i
 
 ## **Data Modeling**
 * The purpose of this diagram is to create a visual representation of the six CSV files based common attributes. 
+
 ![ERD.png](ERD.png)
 
 ## **Results**
