@@ -16,34 +16,42 @@ I've been hired as a new data engineer at Pewlett Hackard. My first major task i
 
 ### Employee Details: 
 * There are currently 300,024 employees at Pewlett Hackard.
+<br></br>
 ![Employee Details](Images/EmployeeDetails.png)
 
 ### Employees Hired in 1986:
 * 36,150 employees were hired in 1986.
+<br></br>
 ![Employee Hired in 1986](Images/Employees1986.png)
 
 ### Managers By Department
-* See image below for breakdown of managers by department
+* See image below for breakdown of managers by department.
+<br></br>
 ![Managers By Department](Images/MgrDept.png)
 
 ### Employees By Department:
-* See image below for breakdown of employees by department
+* See image below for breakdown of employees by department.
+<br></br>
 ![Employee By Department](Images/EmployeesDept.png)
 
 ### Employees Whose First Name Is “Hercules” and Last Names Begin With “B.”
 * There are 20 employees whose first name is Hercules and last name begins with a B.
+<br></br>
 ![Employee Hercules](Images/Hercules.png)
 
 ### All Sales Department Employees:
 There are 52,245 employees in the Sales department.
+<br></br>
 ![Sales Department Employees](Images/Sales.png)
 
 ### All Sales and Development Departments Employees
 There are a total of 137,952 employees in the Sales and Development department.
+<br></br>
 ![Sales and Development Department Employees](Images/SalesAndDev.png)
 
 ### Frequency Count of Employee Last Names in Descending Order:
-* Please run query on PostGres for a full list of employee last name counts.
+* Please run query on PostGres for a full list of employee last name counts
+<br></br>
 ![Frequency](Images/Frequency.png)
 
 ## Summary
